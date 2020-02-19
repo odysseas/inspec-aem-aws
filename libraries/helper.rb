@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require 'ruby_aem_aws'
+require 'ruby_aem_aws_odysseas'
 
 def read_config
   config_file = ENV['INSPEC_AEM_AWS_CONF'] || './conf/aem-aws.yml'
